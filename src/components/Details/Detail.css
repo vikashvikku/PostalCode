@@ -1,0 +1,47 @@
+.detail {
+  margin: 1rem 0;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.country {
+  color: rgb(187, 112, 112);
+  font-size: 18px;
+}
+
+.state {
+  color: rgb(140, 37, 236);
+}
+
+.place {
+  color: black;
+}
+
+.mapped-place {
+  color: rgb(140, 37, 236);
+}
+
+.mapped-data {
+  padding: 0.1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.clear {
+  margin: 2rem 0 1rem 5rem;
+  color: blue;
+  width: 3rem;
+  height: 1.5rem;
+  padding-left: 0.8rem;
+  cursor: pointer;
+}
